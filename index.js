@@ -67,16 +67,22 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeFile("README.md", JSON.stringify(), (error) => 
-    error ? console.error(error) : console.log("Your README file has been created! Please check you local files.")
-);
+// function writeFile("README.md", JSON.stringify(), (error) => 
+//     error ? console.error(error) : console.log("Your README file has been created! Please check you local files.")
+
+// );
 
 
 
 
 
 
-function writeFile(fileName )
+function writeFile(fileName, data, ) {
+    
+    renderLicenseSection(data.license);
+    generateMarkdown(data);
+
+}
 
 
 
