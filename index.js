@@ -64,9 +64,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeFile("README.md", JSON.stringify(generateMarkdown), (error) =>
-//     error ? console.error(error) : console.log("Your README file has been created! Please check you local files.")
-// );
+function writeFile("README.md", JSON.stringify(), (error) => 
+    error ? console.error(error) : console.log("Your README file has been created! Please check you local files.")
+);
+
+
+
+
+
+
+function writeFile()
+
+
+
 
 // TODO: Create a function to initialize app
 function init() {
