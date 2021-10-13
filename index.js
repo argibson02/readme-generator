@@ -63,10 +63,13 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeFile(filename, JSON.stringify(data, null, '\t'), (error) =>
+//     error ? console.log(error) : console.log("Your README file has been created! Please check you local files.")
 
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
+
+console.log(questions);
