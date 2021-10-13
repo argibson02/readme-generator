@@ -1,6 +1,6 @@
 # README Generator
 ## Description
-
+This is a README generator tool powered Node.js and Inquirer. Users can input their project data into a command prompt and auto-generate a project README.md file.
 
 
 [Click this link to see app in action](https://argibson02.github.io/Professional-Portfolio-2/)
@@ -11,9 +11,8 @@
 ![Demo of the app in action](./images/-demo.gif)
 
 
-
 ## Prerequisites
-Any modern internet browser will do!
+Node.js and Inquirer needs to be installed. 
 
 ## Built With
 
@@ -33,11 +32,6 @@ Any modern internet browser will do!
 ## Practices Used
 
 * Agile style User Story and Acceptance Criteria.
-* [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
-## Deployed Link
-
-* [See the Live Site!](https://argibson02.github.io//)
 
 ## Authors
 
@@ -50,9 +44,5 @@ Any modern internet browser will do!
 ## Acknowledgments 😊
 
 - Thanks to Jerome, Manuel, Cheng, and Daniel for instructing the UCB Coding Bootcamp.
-- Thanks to Eric Meyer for the [CSS reset file](https://meyerweb.com/eric/tools/css/reset/).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
