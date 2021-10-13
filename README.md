@@ -17,11 +17,10 @@ Any modern internet browser will do!
 
 ## Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Node.js](https://nodejs.org/en/)
 * [jQuery](https://api.jquery.com/)
-* [Materialize](https://materializecss.com/)
+* [Inquirer](https://www.npmjs.com/package/inquirer) 
 
 
 ## Technologies Used
@@ -29,9 +28,6 @@ Any modern internet browser will do!
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Git Bash](https://git-scm.com/downloads)
 * [GitHub](https://github.com/)
-* [NVDA Screen Reader](https://www.nvaccess.org/)
-* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
 
 ## Practices Used
@@ -57,3 +53,6 @@ Any modern internet browser will do!
 - Thanks to Eric Meyer for the [CSS reset file](https://meyerweb.com/eric/tools/css/reset/).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
