@@ -37,7 +37,6 @@ Node.js and Inquirer need to be installed.
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Git Bash](https://git-scm.com/downloads)
 * [GitHub](https://github.com/)
-* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
 
 
 ## Usage Guidelines
