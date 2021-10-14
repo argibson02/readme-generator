@@ -74,29 +74,42 @@ const questions = [
 
 
 
-
-
-
-function writeFile(fileName, data, ) {
+// function writeFile(fileName, data, ) {
     
-    renderLicenseSection(data.license);
-    generateMarkdown(data);
+//     renderLicenseSection(data.license);
+//     generateMarkdown(data);
 
+// }
+
+
+
+
+
+
+function init() {
+inquirer
+    .prompt(questions)
+    .then((response) => {
+       let makeReadMe = generateMarkdown(response);
+        fs.writeFile("sampleREADME.md", makeReadMe, (err) => {
+            err ? console.error(err) : console.log('Success! Please check you local files for the new README.md')
+        })
+        console.log(response);
+    })
 }
 
 
 
-
 // TODO: Create a function to initialize app
-function init() {
-    inquirer
-        .prompt(questions)
-        .then((response) => {
-            console.log(response);
-            generateMarkdown(response);
-        }
+// function init() {
+//     inquirer
+//         .prompt(questions)
+//         .then((response) => {
+//             console.log(response);
+//             generateMarkdown(response);
+//         }
 
-        )};
+//         )};
 
 // Function call to initialize app
 init();
