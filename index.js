@@ -13,6 +13,18 @@ const questions = [
     ,
     {
         type: "input",
+        name: "username",
+        message: "What is your GitHub username?" // Github (4)
+    }
+    ,
+    {
+        type: "input",
+        name: "repo",
+        message: "What is the name of your project's GitHub repo?" // additional
+    }
+    ,
+    {
+        type: "input",
         name: "describe",
         message: "How would you describe your project?" // describe (2)
     }
@@ -50,41 +62,22 @@ const questions = [
     ,
     {
         type: "input",
-        name: "username",
-        message: "What is your GitHub username? This information will be added to the contact section of the README." // testing (4)
-    }
-    ,
-    {
-        type: "input",
         name: "email",
-        message: "What is your email address? This information will be added to the contact section of the README." // testing (5)
+        message: "What is your email address? This information will be added to the contact section of the README." // email (5)
     }
     ,
 
 ];
 
 
-
-
 // TODO: Create a function to write README file
-// function writeFile("README.md", JSON.stringify(), (error) => 
-//     error ? console.error(error) : console.log("Your README file has been created! Please check you local files.")
-
-// );
-
-
-
 // function writeFile(fileName, data, ) {
-    
 //     renderLicenseSection(data.license);
 //     generateMarkdown(data);
-
 // }
 
 
-
-
-
+// TODO: Create a function to initialize app
 
 function init() {
 inquirer
@@ -98,18 +91,6 @@ inquirer
     })
 }
 
-
-
-// TODO: Create a function to initialize app
-// function init() {
-//     inquirer
-//         .prompt(questions)
-//         .then((response) => {
-//             console.log(response);
-//             generateMarkdown(response);
-//         }
-
-//         )};
 
 // Function call to initialize app
 init();

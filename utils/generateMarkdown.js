@@ -5,16 +5,16 @@ function renderLicenseBadge(data) {
   if (data.license === "Mozilla") {
     badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
   }
-  if (data.license === "Apache") {
+  else if (data.license === "Apache") {
     badge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
   }
-  if (data.license === "MIT") {
+  else if (data.license === "MIT") {
     badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   }
   else {
     badge = "";
   }
-  console.log(badge);
+  // console.log(badge);
   return badge
 }
 
@@ -25,18 +25,19 @@ function renderLicenseLink(data) {
   if (data.license === "Mozilla") {
     link = "(https://opensource.org/licenses/MPL-2.0)";
   }
-  if (data.license === "Apache") {
+  else if (data.license === "Apache") {
     link = "(https://opensource.org/licenses/Apache-2.0)";
   }
-  if (data.license === "MIT") {
+  else if (data.license === "MIT") {
     link = "(https://opensource.org/licenses/MIT)";
   }
   else {
     link = "";
   }
-  console.log(link);
+  // console.log(link);
   return link;
 }
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -44,9 +45,30 @@ function renderLicenseSection(data) {
   var badge = renderLicenseBadge(data);
   var link = renderLicenseLink(data);
   licenseStamp = `${badge}${link}`;
-  console.log(licenseStamp);
+  // console.log(licenseStamp);
   return licenseStamp;
 }
+
+
+function technologies(data) {
+  var techList
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -68,8 +90,18 @@ ${licenseStamp}
 ## Description
 ${data.describe}
 
+[Click this link to see ${data.repo} in action](https://${data.username}.github.io/${data.repo}/)
+ <br />
+
+**Demo of ${data.repo} in action!**
+
+![Demo of ${data.repo} in action](./images/${data.repo}-demo.gif)
+
 ## Installation Instructions
 ${data.install}
+
+## Built With
+${data.tech}
 
 ## Usage Guidelines
 ${data.usage}
@@ -79,6 +111,58 @@ ${data.contribution}
 
 ## Testing Information 
 ${data.testing}
+
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 
 ## Questions
 Encountering any problems? You can contact me at:
