@@ -14,7 +14,6 @@ function renderLicenseBadge(data) {
   else {
     badge = "";
   }
-  // console.log(badge);
   return badge
 }
 
@@ -34,7 +33,6 @@ function renderLicenseLink(data) {
   else {
     link = "";
   }
-  // console.log(link);
   return link;
 }
 
@@ -44,40 +42,47 @@ function renderLicenseLink(data) {
 function renderLicenseSection(data) {
   var badge = renderLicenseBadge(data);
   var link = renderLicenseLink(data);
-  licenseStamp = `${badge}${link}`;
-  // console.log(licenseStamp);
+  var licenseStamp = `${badge}${link}`;
   return licenseStamp;
 }
 
-
+// Made with tech list
 function technologies(data) {
-  var techList
+  var techList = data.tech;
+  var renderTech = [];
+  for (let i = 0; i < techList.length; i++) {
+    if (techList[i] === "HTML") {
+      renderTech.push("* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)")
+    }
+    if (techList[i] === "CSS") {
+      renderTech.push("* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)")
+    }
+    if (techList[i] === "JavaScript") {
+      renderTech.push("* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)")
+    }
+    if (techList[i] === "jQuery") {
+      renderTech.push("* [jQuery](https://api.jquery.com/)")
+    }
+    if (techList[i] === "Node.js") {
+      renderTech.push("* [Node.js](https://nodejs.org/en/)")
+    }
+  }
+  return renderTech;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  renderLicenseSection(data)
+  var addLicense = renderLicenseSection(data);
+  var addTech = technologies(data);
+  var addTech = addTech.join("\n");
+
   return `
 
 # ${data.title}
   -----------------
-${licenseStamp}
+${addLicense}
 
 ## Table of Contents
   - [Description](#Description)
@@ -101,7 +106,7 @@ ${data.describe}
 ${data.install}
 
 ## Built With
-${data.tech}
+${addTech}
 
 ## Usage Guidelines
 ${data.usage}
@@ -112,57 +117,6 @@ ${data.contribution}
 ## Testing Information 
 ${data.testing}
 
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
 
 ## Questions
 Encountering any problems? You can contact me at:

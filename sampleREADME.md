@@ -13,7 +13,7 @@
   - [Questions](#Questions)
 
 ## Description
-sad
+asd
 
 [Click this link to see asd in action](https://asd.github.io/asd/)
  <br />
@@ -23,74 +23,26 @@ sad
 ![Demo of asd in action](./images/asd-demo.gif)
 
 ## Installation Instructions
-sad
+asd
 
 ## Built With
-undefined
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://api.jquery.com/)
 
 ## Usage Guidelines
 asd
 
 ## Contributing Guidelines
-asd
+ads
 
 ## Testing Information 
 asd
 
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
 
 ## Questions
 Encountering any problems? You can contact me at:
 [My GitHub Page](https://github.com/asd)
-[My Email](mailto:)
+[My Email](mailto:ad)
 

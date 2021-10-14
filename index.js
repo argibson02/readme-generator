@@ -61,6 +61,13 @@ const questions = [
     }
     ,
     {
+        type: "checkbox",
+        name: "tech",
+        message: "What languages/tech did you build your project with?", // License (3)
+        choices: ["HTML", "CSS", "JavaScript", "jQuery", "Node.js"],
+    }
+    ,
+    {
         type: "input",
         name: "email",
         message: "What is your email address? This information will be added to the contact section of the README." // email (5)
