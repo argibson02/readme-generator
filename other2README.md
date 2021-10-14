@@ -1,48 +1,48 @@
 
 
-# asd
+# My project 1
   -----------------
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Contents
   - [Description](#Description)
   - [Installation Instructions](#Installation)
+  - [Built With](#Built)
   - [Usage Guidelines](#Usage)
   - [Contribution Guidelines](#Contribution)
   - [Testing Information](#Testing)
   - [Questions](#Questions)
 
 ## Description
-asd
+this is a description
 
-[Click this link to see asd in action](https://asd.github.io/asd/)
+[Click this link to see my-project in action](https://argibson02.github.io/my-project/)
  <br />
 
-**Demo of asd in action!**
+**Demo of my-project in action!**
 
-![Demo of asd in action](./images/asd-demo.gif)
+![Demo of my-project in action](./images/my-project-demo.gif)
 
 ## Installation Instructions
-asd
+these are instructions
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [jQuery](https://api.jquery.com/)
 
 ## Usage Guidelines
-asd
+This is susages information
 
 ## Contributing Guidelines
-ads
+these are usages guidelines
 
 ## Testing Information 
-asd
+these are testing instructions
 
 
 ## Questions
 Encountering any problems? You can contact me at:
-[My GitHub Page](https://github.com/asd)
-[My Email](mailto:ad)
+[My GitHub Page](https://github.com/argibson02)
+[My Email](mailto:argibson02@gmail.com)
 

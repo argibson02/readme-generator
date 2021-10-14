@@ -1,48 +1,49 @@
+
+
 # README Generator
+  -----------------
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
+## Table of Contents
+  - [Description](#Description)
+  - [Installation Instructions](#Installation)
+  - [Built With](#Built)
+  - [Usage Guidelines](#Usage)
+  - [Contribution Guidelines](#Contribution)
+  - [Testing Information](#Testing)
+  - [Questions](#Questions)
+
 ## Description
-This is a README generator tool powered Node.js and Inquirer. Users can input their project data into a command prompt and auto-generate a project README.md file.
+This is a description
 
-
-[Click this link to see app in action](https://argibson02.github.io/Professional-Portfolio-2/)
+[Click this link to see readme-generator in action](https://argibson02.github.io/readme-generator/)
  <br />
 
-**Demo of the webpage in action!**
+**Demo of readme-generator in action!**
 
-![Demo of the app in action](./images/-demo.gif)
+![Demo of readme-generator in action](./images/readme-generator-demo.gif)
 
-
-## Prerequisites
-Node.js and Inquirer needs to be installed. 
+## Installation Instructions
+These are instructions
 
 ## Built With
-
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Node.js](https://nodejs.org/en/)
 * [jQuery](https://api.jquery.com/)
-* [Inquirer](https://www.npmjs.com/package/inquirer) 
+
+## Usage Guidelines
+This is usage information
+
+## Contributing Guidelines
+This is guideline information
+
+## Testing Information 
+These are testing instructions
 
 
-## Technologies Used
+## Questions
+Encountering any problems? You can contact me at:
+[My GitHub Page](https://github.com/argibson02)
+[My Email](mailto:argibson02@gmail.com)
 
-* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
-* [Git Bash](https://git-scm.com/downloads)
-* [GitHub](https://github.com/)
-* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
-
-## Practices Used
-
-* Agile style User Story and Acceptance Criteria.
-
-## Authors
-
-**Alexander Gibson** 
-
-- [Link to Alex's Portfolio Site](https://argibson02.github.io/Professional-Portfolio-2/)
-- [Link to Alex's Github](https://github.com/argibson02)
-- [Link to Alex's LinkedIn](www.linkedin.com/in/alexander-gibson-1b0bb6105)
-
-## Acknowledgments 😊
-
-- Thanks to Jerome, Manuel, Cheng, and Daniel for instructing the UCB Coding Bootcamp.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
