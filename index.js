@@ -78,10 +78,11 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-// function writeFile(fileName, data, ) {
-//     renderLicenseSection(data.license);
-//     generateMarkdown(data);
-// }
+function writeFile(fileName, data, ) {
+    fs.writeFile(fileName, data, (err) => {
+        err ? console.error(err) : console.log('Success! Please check you local files for the new README.md')
+    })
+}
 
 
 // TODO: Create a function to initialize app
@@ -90,9 +91,7 @@ inquirer
     .prompt(questions)
     .then((response) => {
        let makeReadMe = generateMarkdown(response);
-        fs.writeFile("sampleREADME.md", makeReadMe, (err) => {
-            err ? console.error(err) : console.log('Success! Please check you local files for the new README.md')
-        })
+        writeFile("sampleREADME.md", makeReadMe);
         console.log(response);
     })
 }
