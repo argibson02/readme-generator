@@ -1,6 +1,6 @@
 
 
-# README Generator
+# My title
   -----------------
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
@@ -14,32 +14,33 @@
   - [Questions](#Questions)
 
 ## Description
-This is a description
+this is a description
 
-[Click this link WATCH the readme-generator in action](https://watch.screencastify.com/v/XrOCmmj21ZG6RiSXGHTu)
+[Click this link to see my-project in action](https://argibson02.github.io/my-project/)
  <br />
 
-**Demo of readme-generator in action!**
+**Demo of my-project in action!**
 
-![Demo of readme-generator in action](./images/readme-generator-demo.gif)
+![Demo of my-project in action](./images/my-project-demo.gif)
 
 ## Installation Instructions
-These are instructions
+these are instructions
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [jQuery](https://api.jquery.com/)
+* [Node.js](https://nodejs.org/en/)
 
 ## Usage Guidelines
-This is usage information
+this is usage info
 
 ## Contributing Guidelines
-This is guideline information
+this is contribution info
 
 ## Testing Information 
-These are testing instructions
+this is testing info
 
 
 ## Questions
