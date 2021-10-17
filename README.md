@@ -18,12 +18,14 @@
 ## Description
 This is a README generator tool powered Node.js and Inquirer. Users can input their project data into a command prompt and auto-generate a project README.md file.
 
+![Demo image of the readme generator](./images/readme-gen-demo.png)
+
 [Click this link WATCH the readme-generator in action](https://watch.screencastify.com/v/XrOCmmj21ZG6RiSXGHTu)
  <br />
 
 
 ## Installation Instructions
-Node.js and Inquirer need to be installed. 
+Node.js and Inquirer need to be installed. To start the application, navigate in a command console to the folder that houses index.js and enter in 'node index.js'.
 
 
 ## Built With
